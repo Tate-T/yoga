@@ -52,10 +52,11 @@
 }
 
 .team-photo {
+  object-fit: cover;
   width: 421px;
   height: 395px;
   border-radius: 16px;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .team-name {
@@ -76,8 +77,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
-  padding-bottom: 24px;
-  padding-top: 16px;
+  margin-bottom: 24px;
+  margin-top: 16px;
   max-width: 421px;
 }
 
