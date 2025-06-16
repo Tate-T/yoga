@@ -4,12 +4,12 @@
      --buttons-color: rgb(194, 217, 252);
  }
 
- .container {
+ .pricing-container {
+    padding-left: 64px;
+    padding-right: 64px;
     margin-right: auto;
     margin-left: auto;
-    width: 1312px;
-    padding-left: 12px;
-    padding-right: 12px;
+    margin: 0 auto;
  }
 
  .pricing {
