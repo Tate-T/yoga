@@ -19,7 +19,6 @@ header {
 nav {
   display: flex;
   align-items: center;
-  margin-right: 161px;
 }
 .header-container {
   display: flex;
@@ -37,6 +36,8 @@ nav {
   display: flex;
   display: block;
 }
+
+
 .header-photo {
   margin-right: 509px;
   display: flex;
@@ -56,6 +57,7 @@ nav {
   gap: 32px;
   margin-right: 161px;
 }
+
 .header-button {
   display: flex;
   padding: 8px 20px;
