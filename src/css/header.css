@@ -12,7 +12,6 @@
 }
 
 header {
-  display: flex;
   background-color: var(--bg-color);
   justify-content: center;
   padding-top: 23px;
@@ -20,11 +19,12 @@ header {
 }
 
 nav {
+  justify-content: center;
   display: flex;
-  align-items: center;
   flex-direction: column;
   align-items: flex-start;
   flex: 1 0 0;
+  justify-content: center;
 }
 
 .header-container {
