@@ -77,8 +77,13 @@
   align-items: center;
   gap: 8px;
   border-radius: 100px;
-  border: 1px solid #c2d9fc;
-  background: #c2d9fc;
+  border: 1px solid rgba(255, 255, 255, 0);
+  background: rgba(13, 11, 10, 0.05);
+}
+
+.transform-button:hover {
+  border: 1px solid var(--Color-Hawkes-Blue, #c2d9fc);
+  background: var(--Color-Hawkes-Blue, #c2d9fc);
 }
 
 .transform-button2 {
@@ -96,4 +101,9 @@
   border-radius: 100px;
   border: 1px solid rgba(255, 255, 255, 0);
   background: rgba(13, 11, 10, 0.05);
+}
+
+.transform-button2:hover { 
+  border: 1px solid var(--Color-Hawkes-Blue, #c2d9fc);
+  background: var(--Color-Hawkes-Blue, #c2d9fc);
 }
