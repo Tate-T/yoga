@@ -77,6 +77,24 @@
   align-items: center;
   gap: 8px;
   border-radius: 100px;
+  border: 1px solid var(--Opacity-Transparent, rgba(255, 255, 255, 0));
+  background: var(--Opacity-Neutral-Darkest-5, rgba(13, 11, 10, 0.05));
+  color: var(--title-color);
+  font-family: Sarabun;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  margin: 40px auto 0;
+}
+
+.helps-button:hover {
+  display: flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
   border: 1px solid var(--Color-Hawkes-Blue, #c2d9fc);
   background: var(--Color-Hawkes-Blue, #c2d9fc);
   color: var(--title-color);
