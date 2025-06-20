@@ -88,6 +88,13 @@
     gap: 8px;
 }
 
+
+.footer-button:hover {
+    border-radius: 100px;
+border: 1px solid  #C2D9FC;
+background: #C2D9FC;
+}
+
 .footer-p {
     color: rgb(13, 11, 10);
     font-family: Sarabun;

@@ -5,11 +5,11 @@
  }
 
  .pricing-container {
-    padding-left: 64px;
-    padding-right: 64px;
-    margin-right: auto;
-    margin-left: auto;
-    margin: 0 auto;
+     padding-left: 64px;
+     padding-right: 64px;
+     margin-right: auto;
+     margin-left: auto;
+     margin: 0 auto;
  }
 
  .pricing {
@@ -119,8 +119,8 @@
      padding-right: 24px;
      padding-top: 10px;
      padding-bottom: 10px;
-     border: 1px solid var(--buttons-color);
-     background-color: var(--buttons-color);
+     border: 1px solid rgba(255, 255, 255, 0.00);
+     background-color: rgba(13, 11, 10, 0.05);
      margin-top: 116px;
      width: 357.33px;
      height: 46px;
@@ -135,3 +135,15 @@
  .pricing-button1 {
      margin-top: 32px;
  }
+
+ .pricing-button1:hover {
+     border-radius: 100px;
+     border: 1px solid #C2D9FC;
+     background: #C2D9FC;
+ }
+
+ .pricing-button:hover {
+    border-radius: 100px;
+    border: 1px solid #C2D9FC;
+    background: #C2D9FC;
+}
