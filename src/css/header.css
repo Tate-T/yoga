@@ -72,8 +72,8 @@ nav {
   align-items: center;
   gap: 8px;
   border-radius: 100px;
-  border: 1px solid#c2d9fc;
-  background: #c2d9fc;
+  border: 1px solid rgba(255, 255, 255, 0);
+  background: rgba(13, 11, 10, 0.05);
   color: #0d0b0a;
   font-family: Sarabun;
   font-size: 16px;
@@ -83,4 +83,9 @@ nav {
   background-position-x: 105px;
   background-position-y: 42px;
   margin-left: 509px;
+}
+
+.header-button:hover {
+  border: 1px solid#c2d9fc;
+  background: #c2d9fc;
 }
