@@ -80,6 +80,7 @@
     height: 56px;
     margin-bottom: 16px;
     width: 56px;
+    object-fit: cover;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 }
 
